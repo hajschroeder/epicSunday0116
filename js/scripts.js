@@ -1,8 +1,8 @@
 //This function takes three variables, all strings, and concatinates them while uppercasing the first, lowercasing the second, and displaying the only the character in the 0 position of the third
 function testFunc(a, b, c) {
-  return a.toUpperCase().concat(" ").concat(b).concat(c.charAt(0));
+  return a.toUpperCase().concat(" ").concat(b.toLowerCase()).concat(c.charAt(0).toUpperCase());
 }
-let newVar = "kyle is smart";
+let newVar = "bloo blah blee blah";
 newVar = "here we go";
 let oldVar = "KYLE IS SMART";
 let nextVar = "functions"
